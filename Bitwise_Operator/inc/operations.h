@@ -1,0 +1,1 @@
+int bit_swap(int num, int pos1, int pos2, int n);

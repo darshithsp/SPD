@@ -1,14 +1,23 @@
+/*-----------------*/
+/*-----------------*/
+/*-----------------*/
+/*-----------------*/
+
+// This program is to swap the n-number of bits with 2 different indexes.
+// Num Variable takes the input number 
+// Pos1 will take the value for 1st Position and Pos2 will take value for 2nd Position.
+// 'n' indicated how many bits need to be swapped from mentioned Positions.
+
+
+/*-----------------*/
+/*-----------------*/
+/*-----------------*/
+/*-----------------*/
+
+
 #include<stdio.h>
 #include"../inc/macros.h"
-
-int bit_swap(int num, int pos1, int pos2, int n)
-{
-    int temp = ((num >> pos1)^(num >> pos2))&(mask(n));
-    num  = num ^ ((temp << pos1) | (temp << pos2));
-
-    return num;
-
-}
+#include"../inc/operations.h"
 
 int main()
 {
